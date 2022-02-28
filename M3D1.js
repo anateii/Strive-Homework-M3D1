@@ -163,6 +163,19 @@ function checkArray(Array) {
 10)
 
 Create a function to test whether an array of integers of length 2 does not contain 1 or a 3
+console.log("---EXERCISE 10---")
+
+function checkArrayDoesntContain(Array2) {
+    if (!Array2.includes(1) && !Array2.includes(3)) {
+        return (true)
+    }
+    else { return(false)}
+    }
+    
+    
+    console.log(checkArrayDoesntContain([1,2]))
+    console.log(checkArrayDoesntContain([5,63]))
+
 
 11)
 
