@@ -233,10 +233,29 @@ function largestEvenNumber (arrayEven) {
 console.log(largestEvenNumber([20,10,16]))
 
 
+/*16)
 
-Create a function to check from two given integers, whether one is positive and another one is negative.
+Create a function to check from two given integers, whether one is positive and another one is negative.*/
 
-17)
+console.log("---EXERCISE 16---")
+
+function checkIntegers (a,b) {
+
+    if (a>=0 && b<=0) {
+        return (true)
+    }
+
+    else if (a<=0 && b>=0) {
+        return (false)
+    }
+}
+
+
+console.log(checkIntegers(3,-3))
+console.log(checkIntegers(-3,3))
+
+
+/*17)
 
 Create a function to create new string with first 3 characters are in lower case and the others in upper case. If the string length is less than 3 convert all the characters in upper case. 
 
