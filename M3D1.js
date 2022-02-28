@@ -144,6 +144,20 @@ console.log(sumArray([-3,132,-92]))
 Create a function to test whether an array of integers of length 2 contains 1 or a 3. 
 */
 
+console.log("---EXERCISE 9---")
+
+function checkArray(Array) {
+    if (Array.includes(1) || Array.includes(3)) {
+        return (true)
+    }
+    else { return(false)}
+    }
+    
+    
+    console.log(checkArray([1,2]))
+    console.log(checkArray([5,63]))
+    
+
 /*
 
 10)
