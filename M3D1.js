@@ -61,6 +61,13 @@ console.log(removeLastCharacter())
  Create a function to find the largest of three given integers.
 */
 
+console.log("---EXERCISE 4---")
+
+function largestInt (a,b,c) {
+return (Math.max(a,b,c))
+}
+
+console.log(largestInt(14,7,21))
 /*
 5)
 Create a function to check whether two numbers are in range 40..60 or in the range 70..100 inclusive.
