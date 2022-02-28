@@ -4,6 +4,21 @@
 Create a function to calculate the sum of the two given integers. If the two values are same, then returns triple their sum.
 */
 
+console.log("---EXERCISE 1---")
+
+function sumTriple (a, b) {
+    if (a == b) {
+      return 3 * (a + b);
+      } 
+     else
+     {
+      return (a + b);
+     }
+   }
+  console.log(sumTriple(10, 20));
+  console.log(sumTriple(10, 10));
+
+
 /*
 2)
 Create a function to check two given numbers and return true if one of the number is 50 or if their sum is 50.
