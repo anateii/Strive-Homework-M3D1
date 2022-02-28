@@ -282,6 +282,18 @@ Create a function to create new string with first 3 characters are in lower case
 */
 console.log("\n---EXERCISE 17---")
 
+function upperAndLower (str) {
+    if(str.length <3) {
+        return (str.toUpperCase())
+    }
+    firstThreeCharacters = (str.substring(0, 3)).toLowerCase();
+    lastCharacters = str.substring(3, str.length);  
+    return firstThreeCharacters + lastCharacters;
+}
+
+console.log(upperAndLower("Javascript"))
+console.log(upperAndLower("JAVAScript"))
+console.log(upperAndLower("javaSCripT"))
 /*18)
 
 Create a function to calculate the sum of the two given integers, If the sum is in the range 50..80 return 65 other wise return 80.
