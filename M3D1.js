@@ -24,6 +24,21 @@ function sumTriple (a, b) {
 Create a function to check two given numbers and return true if one of the number is 50 or if their sum is 50.
 */
 
+console.log("---EXERCISE 2---")
+
+function checkNumbers (a, b) {
+    if (a===50 || b===50 || a+b===50) {
+      return (true);
+      } 
+     else 
+     {
+      return (false);
+     }
+   }
+  console.log(checkNumbers(50, 20));
+  
+
+
 /*
 3)
 Create a function to remove a character at the specified position of a given string and return the new string.
