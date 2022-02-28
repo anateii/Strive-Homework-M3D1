@@ -44,6 +44,17 @@ function checkNumbers (a, b) {
 Create a function to remove a character at the specified position of a given string and return the new string.
 */
 
+console.log("---EXERCISE 3---")
+
+let  myString = "Hello"
+function removeLastCharacter () {
+   lastCharRemoved = 
+   myString.slice(0, myString.length - 1);
+   return (lastCharRemoved)
+}
+
+
+console.log(removeLastCharacter())
 /*
 
 4)
