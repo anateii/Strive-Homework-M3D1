@@ -109,8 +109,8 @@ Create a function to display the city name if the string begins with "Los" or "N
 console.log("---EXERCISE 7---")
 
 function cityName (string) {
-  if (string.length >= 3 && ((string.substring(0, 3) == 'Los')
-  || (string.substring(0, 3) == 'New'))) {
+  if (string.length >= 3 && ((string.substring(0, 3) === 'Los')
+  || (string.substring(0, 3) === 'New'))) {
  return (string)
   }  
   else {
@@ -125,6 +125,18 @@ console.log (cityName("Madrid"))
 8)
 Create a function to calculate the sum of three elements of a given array of integers of length 3.
 */
+
+console.log("---EXERCISE 8---")
+
+function sumArray(myArray) {
+return ( myArray[0]+myArray[1]+myArray[2] )
+
+}
+
+
+console.log(sumArray([1,2,3]))
+console.log(sumArray([5,19,-12]))
+console.log(sumArray([-3,132,-92]))
 
 /*
 
