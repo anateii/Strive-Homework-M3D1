@@ -189,7 +189,7 @@ console.log (arr.sort(function (a, b) { return b.length - a.length })[0]);
 
 
 
-12)
+/*12)
 
 Create a function to find the types of a given angle.
 
@@ -198,8 +198,10 @@ Types of angles:
     Right angle: An 90 degree angle.
     btuse angle: An angle between 90 and 180 degrees.
     Straight angle: A 180 degree angle.
+*/
 
-13)
+
+/*13)
 
 Create a function to find the index of the greatest element of a given array of integers
 */
@@ -213,11 +215,24 @@ let maxValue = Math.max(...arrayOfNumbers);
 let index = arrayOfNumbers.indexOf(maxValue);
 console.log(index); 
 
-14)
+/*14)
 
-Create a function to get the largest even number from an array of integers.
+Create a function to get the largest even number from an array of integers. */
 
-16)
+console.log("---EXERCISE 14---")
+
+function largestEvenNumber (arrayEven) {
+    for (let i = 0; i < arrayEven.length; i++) {
+        if (arrayEven[i] % 2 === 0){
+          return arrayEven[i];
+        }
+        else {return ""}
+      }
+}
+ 
+console.log(largestEvenNumber([20,10,16]))
+
+
 
 Create a function to check from two given integers, whether one is positive and another one is negative.
 
