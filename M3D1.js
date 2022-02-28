@@ -202,6 +202,16 @@ Types of angles:
 13)
 
 Create a function to find the index of the greatest element of a given array of integers
+*/
+console.log("---EXERCISE 13---")
+
+
+let arrayOfNumbers = [56, 3, 19, 24, 10];
+
+let maxValue = Math.max(...arrayOfNumbers);
+
+let index = arrayOfNumbers.indexOf(maxValue);
+console.log(index); 
 
 14)
 
