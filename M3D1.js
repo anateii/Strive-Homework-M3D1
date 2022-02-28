@@ -89,6 +89,17 @@ console.log (checkGivenNumbers(46,56))
 Create a function to create a new string of specified copies (positive number) of a given string.
 */
 
+console.log("---EXERCISE 6---")
+function stringCopies (string, number) 
+{
+  if (number < 0) {return false;}
+    
+  else
+  {return string.repeat(number);}
+}
+console.log(stringCopies("Hello ", 3));
+console.log(stringCopies("Hello ", 2));
+console.log(stringCopies("Hello ", -3));
 /*
 
 7)
