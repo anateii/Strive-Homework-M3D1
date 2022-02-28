@@ -180,6 +180,14 @@ function checkArrayDoesntContain(Array2) {
 11)
 
 Create a function to find the longest string from a given array of strings.
+*/
+console.log("---EXERCISE 11---")
+
+let arr = [ 'abcdef', 'abcdefg', 'fghijklmn', 'gdf', 'ioeudfuiosdiufhrig' ];
+
+console.log (arr.sort(function (a, b) { return b.length - a.length })[0]);
+
+
 
 12)
 
