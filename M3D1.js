@@ -106,6 +106,21 @@ console.log(stringCopies("Hello ", -3));
 Create a function to display the city name if the string begins with "Los" or "New" otherwise return blank.
 */
 
+console.log("---EXERCISE 7---")
+
+function cityName (string) {
+  if (string.length >= 3 && ((string.substring(0, 3) == 'Los')
+  || (string.substring(0, 3) == 'New'))) {
+ return (string)
+  }  
+  else {
+      return ("")
+  }
+}
+
+console.log (cityName("New Hampshire"))
+console.log (cityName("Los Cabos"))
+console.log (cityName("Madrid"))
 /*
 8)
 Create a function to calculate the sum of three elements of a given array of integers of length 3.
